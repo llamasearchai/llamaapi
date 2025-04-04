@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="llamaapi",
+    name="llamaapi-llamasearch",
     version="0.1.0",
-    author="LlamaSearch.ai",
-    author_email="info@llamasearch.ai",
+    author="LlamaSearch AI",
+    author_email="nikjois@llamasearch.ai",
     description="A flexible API client and server utilities package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/llamasearch/llamaapi",
+    url="https://llamasearch.ai",
     project_urls={
         "Bug Tracker": "https://github.com/llamasearch/llamaapi/issues",
         "Documentation": "https://llamasearch.ai/docs/llamaapi",
